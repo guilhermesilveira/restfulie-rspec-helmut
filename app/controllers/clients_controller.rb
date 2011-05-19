@@ -6,6 +6,7 @@ class ClientsController < ApplicationController
   # GET /clients.xml
   def index
     @clients = Client.all
+    puts "controller rodado"
     respond_with(@clients)
   end
 

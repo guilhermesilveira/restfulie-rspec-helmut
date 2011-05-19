@@ -9,7 +9,7 @@ gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
-gem 'restfulie', '1.0.0'
+gem 'restfulie', '1.0.3'
 gem 'rspec-rails'
 
 # Deploy with Capistrano

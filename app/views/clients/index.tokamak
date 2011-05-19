@@ -1,0 +1,11 @@
+clients {
+  puts "i am not getting here"
+  link "self", clients_url
+  @clients.each do |c|
+    client {
+      link   :self,  client_url(c)
+      id client.id
+      name client.name
+    }
+  end
+}
